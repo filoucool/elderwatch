@@ -1,0 +1,9 @@
+G:\Mon disque\Projet Bourse\Logiciel de Surveillance\Logiciel de Surveillance\bin\Release\Logiciel de Surveillance.exe.config
+G:\Mon disque\Projet Bourse\Logiciel de Surveillance\Logiciel de Surveillance\bin\Release\Logiciel de Surveillance.exe
+G:\Mon disque\Projet Bourse\Logiciel de Surveillance\Logiciel de Surveillance\bin\Release\Logiciel de Surveillance.pdb
+G:\Mon disque\Projet Bourse\Logiciel de Surveillance\Logiciel de Surveillance\obj\Release\Logiciel de Surveillance.csprojAssemblyReference.cache
+G:\Mon disque\Projet Bourse\Logiciel de Surveillance\Logiciel de Surveillance\obj\Release\Logiciel_de_Surveillance.Form1.resources
+G:\Mon disque\Projet Bourse\Logiciel de Surveillance\Logiciel de Surveillance\obj\Release\Logiciel_de_Surveillance.Properties.Resources.resources
+G:\Mon disque\Projet Bourse\Logiciel de Surveillance\Logiciel de Surveillance\obj\Release\Logiciel de Surveillance.csproj.GenerateResource.cache
+G:\Mon disque\Projet Bourse\Logiciel de Surveillance\Logiciel de Surveillance\obj\Release\Logiciel de Surveillance.exe
+G:\Mon disque\Projet Bourse\Logiciel de Surveillance\Logiciel de Surveillance\obj\Release\Logiciel de Surveillance.pdb
