@@ -16,8 +16,6 @@ namespace Logiciel_de_Surveillance
     {
         private SerialPort myport;
         private DateTime datetime;
-        private string in_data;
-        bool isconnected = false;
         public Form1()
         {
             InitializeComponent();
@@ -55,62 +53,32 @@ namespace Logiciel_de_Surveillance
             myport.DataReceived += Myport_DataReceived;
             try{
                 myport.Open();
-                MessageBox.Show("Le port est maintenant ouvert!");
                 Name_List.Text = "";
-                isconnected = true;
             }
-
                 catch (Exception ex) {
                 MessageBox.Show(ex.Message, "Erreur de connection!");
-                isconnected = false;
             }
-
         }
 
         private void Myport_DataReceived(object sender, SerialDataReceivedEventArgs e)
-        {            
-            in_data = myport.ReadLine();
-            this.Invoke(new EventHandler(displaydata_event));
-        }
-
-        private void displaydata_event(object sender, EventArgs e)
         {
             datetime = DateTime.Now;
+
             string time = datetime.Hour + ":" + datetime.Minute + ":" + datetime.Second;
-            Name_List.Items.Add(time + "           " + in_data);
+
+            string in_data = myport.ReadLine();
+            Details_List.Text = time + "/t/t/t/t/t" + in_data;
         }
 
         private void Disconnect_Button_Click(object sender, EventArgs e)
         {
             //DISCONNECTS THE SERIAL CONNECTION
-            try
-            {
-                myport.Close();
-                MessageBox.Show("Le port est maintenant Fermé!");
-                isconnected = false;
-            }
-            catch (Exception ex2)
-            {
-                MessageBox.Show(ex2.Message, "Error");
-            }
         }
 
         private void Save_Button_Click(object sender, EventArgs e)
         {
             //SAVES THE LOG INTO A FILE
-            try
-            {
-                string pathfile = @"C:\Users\FiloucoolGaming\Desktop";
-                string filename = "Log_data.txt";
-                System.IO.File.WriteAllText(pathfile + filename, Name_List.Text);
-                MessageBox.Show("Les données ont été sauvergardées dans le dossier suivant:" + pathfile);
-            }
-            catch (Exception ex3)
-            {
-                MessageBox.Show(ex3.Message, "Error");
-            }
         }
-
 
         private void Name_List_DoubleClick(object sender, EventArgs e)
         {

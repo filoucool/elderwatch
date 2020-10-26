@@ -11,12 +11,3 @@ G:\Mon disque\Projet Bourse\Logiciel de Surveillance\Logiciel de Surveillance\ob
 G:\Mon disque\Projet Bourse\Logiciel de Surveillance\Logiciel de Surveillance\obj\Debug\Logiciel de Surveillance.csproj.GenerateResource.cache
 G:\Mon disque\Projet Bourse\Logiciel de Surveillance\Logiciel de Surveillance\obj\Debug\Logiciel de Surveillance.exe
 G:\Mon disque\Projet Bourse\Logiciel de Surveillance\Logiciel de Surveillance\obj\Debug\Logiciel de Surveillance.pdb
-C:\Users\FiloucoolGaming\source\repos\Logiciel de Surveillance\Logiciel de Surveillance\bin\Debug\Logiciel de Surveillance.exe.config
-C:\Users\FiloucoolGaming\source\repos\Logiciel de Surveillance\Logiciel de Surveillance\bin\Debug\Logiciel de Surveillance.exe
-C:\Users\FiloucoolGaming\source\repos\Logiciel de Surveillance\Logiciel de Surveillance\bin\Debug\Logiciel de Surveillance.pdb
-C:\Users\FiloucoolGaming\source\repos\Logiciel de Surveillance\Logiciel de Surveillance\obj\Debug\Logiciel de Surveillance.csprojAssemblyReference.cache
-C:\Users\FiloucoolGaming\source\repos\Logiciel de Surveillance\Logiciel de Surveillance\obj\Debug\Logiciel_de_Surveillance.Form1.resources
-C:\Users\FiloucoolGaming\source\repos\Logiciel de Surveillance\Logiciel de Surveillance\obj\Debug\Logiciel_de_Surveillance.Properties.Resources.resources
-C:\Users\FiloucoolGaming\source\repos\Logiciel de Surveillance\Logiciel de Surveillance\obj\Debug\Logiciel de Surveillance.csproj.GenerateResource.cache
-C:\Users\FiloucoolGaming\source\repos\Logiciel de Surveillance\Logiciel de Surveillance\obj\Debug\Logiciel de Surveillance.exe
-C:\Users\FiloucoolGaming\source\repos\Logiciel de Surveillance\Logiciel de Surveillance\obj\Debug\Logiciel de Surveillance.pdb
